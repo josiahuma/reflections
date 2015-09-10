@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+- When the work is done by multiple people in different location and you want to manage all their contribution to the content.
