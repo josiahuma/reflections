@@ -8,3 +8,25 @@
 
 The staging area is different because it serves as a holding ground for files from the WD before they get committed to the repo.
 The staging area offers a very important value as it make the user commit only what it wants to.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+By constantly checking the changes made in the staging area using git diff and git diff --staged. You can ensure that the changes to be committed are only per logical changes
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- while making a long term significant change to the document (e.g different language versions, a new mode, experimental changes)
+Branches help by giving you the exact state of the repository but as a working copy and when the changes are tested and verified, could be merged back with the main branch (master)
+
+5. How do the diagrams help you visualize the branch structure?
+
+By providing details of commits and their parents, its easier for user to know at what state the repo is and what level was checked out
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging branch 2 into branch 1, makes branch 1 the master branch and adds all the commits in branch 2 into branch 1 with the already existing commits in branch 1.
+We represent it in a diagram in order to get a better clearer representation of the branches and commits and commit checkouts that are alone.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Auto merging is done where there are no conflicting changes in same file, manual merging is done to resolve conflicts in file changes.
